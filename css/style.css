@@ -4,4 +4,19 @@
   background-color: darkgray;
 }
 
+#logo {
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
