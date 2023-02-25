@@ -1,17 +1,20 @@
 #page_head{
    display: grid;
-    grid-template-columns: repeat(autofit, minmax(250,1fr));
+    
     background-color: darkgray;
     
 }
 #logo{
-    
+    display: grid;
     padding:0px;
     margin:0px;
+    justify-self: start;
 }
 #menu{
-  
+    display: grid;
     margin: 0px;
     padding: 0px;
+    justify-self: end;
+    align-self: center;
     
 }

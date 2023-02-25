@@ -1,22 +1,62 @@
 #page_head {
   display: grid;
-  grid-template-columns: repeat(autofit, minmax(250, 1fr));
   background-color: darkgray;
 }
 
 #logo {
+  display: grid;
   padding: 0px;
   margin: 0px;
+  justify-self: start;
 }
 
 #menu {
+  display: grid;
   margin: 0px;
   padding: 0px;
+  justify-self: end;
+  align-self: center;
+}
+
+#page_foot {
+  background-color: darkgray;
 }
 
 * {
   margin: 0px;
   padding: 0px;
+}
+
+/* this is the code for the main body on the mobile site*/
+#page_main {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+  margin-top: 100px;
+}
+
+#profile {
+  display: grid;
+  justify-items: center;
+}
+
+#about {
+  margin-top: 100px;
+  display: grid;
+  justify-items: center;
+}
+#about > p {
+  margin-top: 50px;
+}
+
+#intro {
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.details > h1 {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
